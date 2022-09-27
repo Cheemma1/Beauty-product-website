@@ -541,7 +541,7 @@ justify-content: flex-start;
     padding: 1rem;
 }
 .lap{
-    padding: 0.8rem;
+    padding: 0.8rem 0.5rem;
 }
 .lap-flex{
     flex-direction: row;
