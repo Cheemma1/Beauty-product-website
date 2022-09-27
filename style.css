@@ -1,0 +1,553 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family:'Montserrat',sans-serif; ;
+}
+
+
+.header{
+min-height: 100vh;
+background-image: url(images/healthy-jojoba-oil-assortment\ \(1\).jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 80px;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+   padding: 1.5rem 4rem;
+   height: 80px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: ease-in-out 0.9s;
+}
+.nav-links ul li a:hover{
+   color: white;
+}
+
+
+.text-area{
+    padding: 18rem 48rem 0 2rem;
+    color: black;
+}
+
+.text-area h1{
+    padding: 1rem  6rem 1rem 2rem;
+    line-height: 1.3;
+}
+
+.text-area p{
+    padding: 0 6rem 2rem 2rem;
+}
+.text-area a{
+    text-decoration: none;
+    background-color:black;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    color: white;
+    transition: ease-in-out 0.7s;
+    margin-left: 1.5rem;
+}
+
+.text-area a:hover{
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+}
+.second-section{
+    text-align: center;
+    padding: 5rem 0 7rem 0;
+}
+.second-section h2{
+    padding: 1rem  0;
+    font-size: 1.4rem;
+    color: black;
+}
+.product img{
+    width: 70%;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.product p{
+font-weight: 500;
+padding-bottom: 5rem;
+color: black;
+}
+
+.about-grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about img{
+    width: 70%;
+    height: 600px;
+    vertical-align: middle;
+}
+
+.about-text{
+    padding:  10rem 6rem 0 6rem ;
+    text-align: left;
+    
+}
+
+.about-text h2{
+    padding: 1rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+.about-text1 {
+    padding-bottom: 1rem;
+    color: black;
+}
+.about-text2 {
+    padding-bottom: 2rem;
+    color: black;
+}
+
+.about-text a{
+ text-decoration: none;
+background-color:black;
+padding: 1rem 2rem;
+font-size: 1.3rem;
+border-radius: 30px;
+color: white;
+border: none;
+}
+.about-text a:hover{
+    background: transparent;
+    color: black;
+    border:  1px solid black;
+}
+.testimonial{
+padding: 4rem 2rem;
+text-align: center;
+box-sizing: border-box;
+}
+.testimonial h3{
+    text-align: center;
+    color: black;
+    padding-bottom: 1rem;
+}
+.test-page p{
+    text-align: center;
+    padding: 0.8rem 20rem;
+    color: black;
+}
+.prev-btn,
+.next-btn{
+    text-align: center;
+    padding: 0.4rem;
+    display: inline-block;
+    transition:  0.6s ease;
+    cursor: pointer;
+    border: none;
+    background-color: darkorange;
+ margin-bottom: 3rem;
+}
+
+
+.shop{
+    padding: 5rem 0 2rem 0;
+}
+.store{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.store-image {
+    width: 40%;
+    
+}
+
+.store-sec h2{
+    padding: 0 0 0.4rem 0;
+}
+.store-text{
+    flex: 1;
+    
+}
+#product-image{
+    max-width: 70%;
+    margin:0 ;
+}
+.store-sec p{
+    padding-bottom: 1.6rem;
+    color: black;
+}
+.store-text{
+    padding-top: 2rem;
+    padding-bottom: 1.6rem;
+}
+.store-sec a{
+ text-decoration: none;
+ color: white;
+ background-color: black;
+ border-radius: 30px;
+ padding: 1rem 3rem;
+ font-size: 1.2rem;
+ text-transform: capitalize;
+ font-weight: 600;
+ transition: ease-in-out 0.9s;
+}
+.store-sec a:hover{
+    background: transparent;
+        color: black;
+        border: 1px solid black;
+}
+.prev-btn1,
+.next-btn1 {
+    text-align: center;
+    padding: 0.4rem;
+    display: inline-block;
+    transition: 0.6s ease;
+    cursor: pointer;
+    border: none;
+   background-color:darkorange;
+    margin-bottom: 3rem;
+}
+
+.blog{
+    padding: 3rem 0;
+    text-align: center;
+}
+.blog h2{
+    padding: 3rem 0;
+}
+.blog-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 1rem;
+}
+.blog-card{
+    flex: 1;
+    width: 350px;
+    text-align: left;
+    background-color: rgb(240, 233, 233);
+margin-bottom: 3rem;
+}
+.blog-card img{
+    width: 100%;
+
+}
+.blog-card h4{
+padding: 1rem 0.5rem;
+}
+.blog-card p{
+    padding:0 0.5rem 1.5rem 0.5rem;
+    color: black;
+}
+.blog a{
+text-decoration: none;
+    background-color: black;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    color: white;
+    transition: ease-in-out 0.7s;
+    text-align: center;
+}
+.blog a:hover{
+    background: transparent;
+        color: black;
+        border: 1px solid black;
+}
+.footer {
+    background-color:rgb(207, 123, 20);
+    padding: 3rem 0 0.9rem 0;
+    
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.footer-flex i {
+    padding: 0 0.6rem;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+
+}
+.footer-flex i:hover{
+    color: black;
+}
+.footer-flex h3{
+    padding-bottom: 0.4rem;
+}
+.footer-flex p {
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-flex ul li {
+    list-style: none;
+    color: white;
+    padding: 0.8rem ;
+    cursor: pointer;
+    margin: auto;
+}
+
+.footer-flex ul li:hover{
+    color: black;
+}
+.footer-flex h3 {
+    color: white;
+    font-size: 2rem;
+}
+.lap{
+
+    background-color: black;
+    padding: 2rem;
+
+}
+.lap h2 ,p {
+    padding-bottom: 0.9rem;
+    color: white;
+}
+
+.lap input{
+    background:transparent;
+    border: 0;
+    outline: none;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+
+}
+::placeholder{
+    color:white;
+}
+.lap-flex{
+    display: flex;
+    border: 1px solid orangered;
+
+    flex: 1;
+}
+.lap button{
+padding: 0.8rem ;
+border:0;
+font-size: 0.9rem;
+background-color:transparent;
+cursor: pointer;
+border: 1px solid orangered;
+color: white;
+margin :0.3rem;
+}
+.footer h6{
+    text-align: center;
+    padding-top: 1rem ;
+    font-size: 1.1rem;
+}
+nav .fa {
+    display: none;
+}
+@media(max-width: 1115px){
+  .text-area{
+    padding: 20rem 10rem;
+  }  
+}
+
+@media(max-width:888px){
+   .testimonial{
+    padding: 1rem;
+   }
+   .test-page p{
+    padding: 1rem;
+   }
+   .about-text{
+    padding: 1rem;
+   }
+   .footer-flex{
+    padding: 0 3rem;
+   }
+}
+@media (max-width:768px){
+ 
+.logo{
+    font-size: 1.5rem;
+    padding:1.5rem 1rem;
+}
+ .nav-links ul li {
+        display: block;
+        margin: 1rem;
+        color: white;
+
+    }
+ .nav-links {
+        position: absolute;
+        background: orangered;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        left: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        color: white;
+    
+    }
+
+ nav .fa {
+  display: block;
+ margin: 30px;
+ font-size: 30px;
+text-align: right;
+ cursor: pointer;
+ }
+
+.nav-links ul {
+ padding:2rem;
+ color: white;
+ }
+
+  
+    .text-area{
+     margin: auto;
+     padding: 10rem 1rem 0 1rem;
+     text-align: center;
+    }
+    .text-area h1{
+padding-right: 3rem;
+    }
+    .text-area p{
+        padding-right: 3.5rem;
+    }
+     .text-area a{
+        margin-bottom: 5px;
+     }
+     .second-section h2{
+        padding-top: 1rem;
+     }
+     .product{
+        flex-direction: column;
+        padding: 1rem;
+     }
+     .product p{
+padding-bottom: 1rem;
+     }
+
+.about-grid{
+ grid-template-columns: repeat(1,1fr);
+ padding: 1rem;
+ }
+.about-text{
+  margin: auto;
+padding: 1rem;
+}
+ .about-text h2{
+ text-align: center;
+}
+.about-text1{
+ padding: 1rem 0.5rem;
+ }
+.about-text2{
+ padding: 1rem 0.5rem 2rem 0.5rem;
+ }
+.about a{
+ padding: 1rem 0.9rem;
+}
+.about img{
+    margin-top: 2.5rem;
+    width: 100%;
+}
+.testimonial {
+
+    padding: 0.3rem 1rem;
+    text-align: center;
+}
+ .test-page p{
+padding: 1rem;
+text-align: center; }
+  
+.prev-btn,
+.next-btn{
+    padding: 1rem;
+}
+
+.shop{
+    padding: 0.7rem;
+}
+.store{
+    flex-direction: column;
+}
+.store-image{
+    width: 100%;
+}
+.prev-btn1,
+.next-btn1{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+ .blog{
+    padding: 0.5rem 0.5rem 2.5rem 0.5rem;
+   }
+.blog-sec{
+    flex-direction: column;
+}
+.blog-card{
+    width: 300px;
+}
+.footer-flex{
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+    padding: 1rem;
+}
+.lap{
+    padding: 0.8rem;
+}
+.lap-flex{
+    flex-direction: row;
+}
+.footer-flex ul li{
+    text-align: left;
+    padding: 1rem;
+}
+}
